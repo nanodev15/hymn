@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<group android:title="Index" android:checkableBehavior="single">
+
+    <item
+        android:title="@string/title00"
+        android:id="@+id/nav_num0"/>
+
+    <item
+        android:title="@string/title0"
+        android:id="@+id/nav_num"/>
+
+    <item
+        android:title="@string/title1"
+        android:id="@+id/nav_camera"/>
+    <!-- android:icon="@drawable/ic_menu_camera"-->
+
+    <item
+        android:title="@string/title2"
+        android:id="@+id/nav_gallery"/>
+
+    <!--   //android:icon="@drawable/ic_menu_slideshow"-->
+
+<!-- <item
+     android:title="@string/title3"
+     android:id="@+id/nav_manage" /> -->
+    <!-- android:icon="@drawable/ic_menu_manage" -->
+
+    <item
+        android:title="@string/title7"
+        android:id="@+id/nav_search" />
+
+</group>
+    <item android:title="Infos">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="A propos"/>
+            <!--     android:icon="@android:drawable/ic_menu_share" -->
+
+            <item
+                android:id="@+id/nav_send"
+                android:title="Suggestions"/>
+        <!--        android:icon="@android:drawable/ic_menu_send" -->
+
+        </menu>
+    </item>
+</menu>

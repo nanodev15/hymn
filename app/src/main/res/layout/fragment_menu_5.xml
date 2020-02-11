@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/men5"
+    android:clickable="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+
+
+<!--
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/choice_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:padding="4dp"
+    android:rowCount="2"
+    android:columnCount="2">
+
+
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="#FF33B5E5"
+        android:text="Tile1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="#FF33B5E5"
+        android:text="Tile2" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="#FF33B5E5"
+        android:text="Tile3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="#FF33B5E5"
+        android:text="Tile4" />
+
+
+
+</GridLayout>
+    -->
+
+    <GridView
+        android:id="@+id/choice_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="110dp"
+        android:background="#e5e5e5"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:gravity="center"
+        android:numColumns="auto_fit" />
+
+
+   <!-- <ListView
+        android:id="@+id/listView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" >
+    </ListView>-->
+ <!--   android:background="@color/busy_indicator"  -->
+
+</RelativeLayout>

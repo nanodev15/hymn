@@ -1,0 +1,30 @@
+<resources>
+    <bool name="abc_config_actionMenuItemAllCaps">false</bool>
+    <string name="app_name">Cantik0</string>
+    <string name="app_name2">EBBTHymns</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_hymn">Cantiq</string>
+    <string name="app_short_name">EBBhymn</string>
+    <string name="title1">Index alphabétique</string>
+    <string name="title0">Index numérique</string>
+    <string name="title00">Cantiques</string>
+    <string name="title2">Index thématique</string>
+    <string name="title3">Index par tonalité</string>
+    <string name="title4">A propos</string>
+    <string name="title7">Recherche par tonalité</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <array name="staticText1Elements">
+        <item>Version</item>
+        <item>Equipe de développement</item>
+        <item>Contacts</item>
+        <item>Contributeurs</item>
+        <!-- <item>Touch panel version</item>-->
+        <!--   <item>Battery version</item>-->
+    </array>
+
+
+    <string name="title_activity_splash">EBBTHymns</string>
+    <string name="welcome">Cantique des Eglises Baptistes Bibliques du TOGO</string>
+
+</resources>
